@@ -32,11 +32,16 @@ Inside the `<dependencies>` section of `pom.xml`, add the MongoDB driver depende
 ### 4. Paste Code Inside `src/`  
 Ensure your existing code (from this GitHub repository) is inside:  
 ```
-HostelManagementSystem\src\main\java\HostelManagementSystem.java
+HostelManagementSystem\src\main\java\org.example\HostelManagementSystem.java
 ```
 Sync the file.
 
-### 5. Run the Project  
-- Open `Main.java` in IntelliJ IDEA.  
-- Click **Run** or execute the following in the terminal:  
+### 5. If running locally, give the connection string as:
+```xml
+mongodb://localhost:27017/
+```
+
+### 6. Run the Project  
+- Open `HostelManagementSystem.java` in IntelliJ IDEA.  
+- Click **Run**.
 
